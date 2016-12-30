@@ -1,0 +1,19 @@
+
+.Alert {
+  background: #e3e3e3;
+  padding: 10px;
+}
+
+.Alert--Success {
+  background-color: hsla(120, 86%, 31%, 0.48);
+  color: white;
+}
+
+.Alert--Error {
+  background: #ff5722;
+  color: white;
+}
+
+.Alert--Info {
+  background: #e3e3e3;
+}
