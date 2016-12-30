@@ -19,7 +19,7 @@
             .Alert--Success{
                 background: green;
             }
-            .Alert--error{
+            .Alert--Error{
                 background: red;
                 color: white;
             }
@@ -28,7 +28,7 @@
     <body>
         <div class="container">
             @if(Session::has('flash_message'))
-                <div class="Alert Alert--{{Session::get('flash_level')}}">
+                <div class="Alert Alert--{{ucwords(Session::get('flash_level'))}}">
                     <h3> {{ Session::get('flash_message') }}</h3>
                 </div>
             @endif
