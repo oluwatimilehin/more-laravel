@@ -12,7 +12,8 @@
 */
 
 Route::get('begin', function(){
-    Session::flash('flash_message', 'Hello there');
+    Session::flash('flash_message', 'This is your status');
+    Session::flash('flash_level', 'Success');
     return redirect('/');
 });
 
