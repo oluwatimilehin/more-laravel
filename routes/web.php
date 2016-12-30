@@ -12,7 +12,7 @@
 */
 
 Route::get('begin', function(){
-    Session::flash('status', 'Hello there');
+    Session::flash('flash_message', 'Hello there');
     return redirect('/');
 });
 
