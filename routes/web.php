@@ -13,7 +13,7 @@
 
 Route::get('begin', function(){
     Session::flash('flash_message', 'You are now logged in');
-    Session::flash('flash_level', 'Success');
+    Session::flash('flash_level', 'success');
     return redirect('/');
 });
 
