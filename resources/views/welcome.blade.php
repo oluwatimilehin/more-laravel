@@ -7,10 +7,11 @@
     <title>Laravel</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
 <body>
 <div class="container">
-    @include('flash');
+    @include('flash')
     <h1> Laravel </h1>
 </div>
 </body>
