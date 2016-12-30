@@ -14,13 +14,14 @@
             }
             .Alert{
                 background: #e3e3e3;
-                /*padding:10px;*/
+                padding:10px;
             }
             .Alert--Success{
-                background: green;
+                background-color:hsla(120, 86%, 31%, 0.48);
+                color: white;
             }
             .Alert--Error{
-                background: red;
+                background: #ff5722;
                 color: white;
             }
         </style>
