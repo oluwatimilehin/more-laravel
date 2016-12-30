@@ -15,6 +15,10 @@ class MustBeAdministrator
      */
     public function handle($request, Closure $next)
     {
-        return $next($request);
+        $user = $request->user();
+        if($user && $user->username == "John Doe"){
+            return $next($request);
+        }
+        abort(404, "No way");
     }
 }
