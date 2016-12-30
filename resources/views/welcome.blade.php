@@ -24,6 +24,9 @@
                 background: #ff5722;
                 color: white;
             }
+            .Alert--Info{
+                background: #e3e3e3;
+            }
         </style>
     </head>
     <body>
