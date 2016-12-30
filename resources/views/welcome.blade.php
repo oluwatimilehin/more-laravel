@@ -72,8 +72,8 @@
                     <a href="{{ url('/register') }}">Register</a>
                 </div>
             @endif
-            @if(Session::has('status'))
-                <h3> {{ Session::get('status') }}</h3>
+            @if(Session::has('flash_message'))
+                <h3> {{ Session::get('flash_message') }}</h3>
             @endif
             <div class="content">
                 <div class="title m-b-md">
